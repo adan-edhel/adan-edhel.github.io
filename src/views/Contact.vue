@@ -3,12 +3,12 @@
     
     <h1>Let's get in touch</h1>
 
-    <div style="margin-bottom:40px;">I'm looking for a job !<br/>Feel free to contact me about any opportunity, or just to chat about cooking, kittens or anything else.</div>
+    <div style="margin-bottom:40px;">Feel free to contact me about any opportunity, or just to chat about gamedev, coding or anything else :)</div>
 
     <ul>
       <li>
         <i class="fa fa-user-circle-o fa-lg fa-fw"></i>
-        <a href="http://mywebsite.com" target="_blank">https://mywebsite.com</a>
+        <a href="https://adan-edhel.github.io" target="_blank">adan-edhel.github.io</a>
       </li>
       <li>
         <i class="fa fa-envelope-o fa-lg fa-fw"></i>
