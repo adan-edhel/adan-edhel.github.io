@@ -4,7 +4,7 @@ import ProjectData from '@/data/ProjectData'
 // Add "true, true" to the end of color code to increase thumbnail size
 
 export default [
-    new ProjectData("project-1", "Custom Engine - (Hollow Knight)", "img/projects/Covers/CustomEngineCover.png", 
+    new ProjectData("project-1", "Custom Engine - (Hollow Knight)", "img/projects/Covers/CustomEngine.png", 
     `
     This project is a <strong>faithful vertical slice of Hollow Knight</strong>, built entirely on top of a custom 2D game engine I developed from scratch. 
     Inspired by Unity's architecture, the engine features a GameObject-Component system, and supports key systems like rendering, animation, physics, and audio. 
@@ -71,7 +71,7 @@ export default [
     // Line Break
     //-------------------------------------------------------------------------------------------
 
-    new ProjectData("project-2", "Treacherous Waters", "img/projects/Covers/TreacherousWatersCover.png", `
+    new ProjectData("project-2", "Treacherous Waters", "img/projects/Covers/TreacherousWaters.png", `
     <div class="paragraph">
         <strong>Treacherous Waters</strong> is a 3D arcade-style naval combat game built using the Synty Pirate Asset Pack. 
         The game was developed as a showcase piece to highlight the pack's stylized models, animation versatility, and environmental assets. 
