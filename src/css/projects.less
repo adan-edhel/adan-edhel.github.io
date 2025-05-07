@@ -61,4 +61,44 @@
             width : 400px;
         }
     }
+
+    .feature-block {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
+      
+        &.image-left {
+          flex-direction: row;
+        }
+      
+        &.image-right {
+          flex-direction: row-reverse;
+        }
+      
+        img {
+          width: 400px;
+          height: auto;
+          border-radius: 8px;
+        }
+      
+        .text-block {
+          flex: 1;
+      
+          &.align-left {
+            text-align: left;
+          }
+      
+          &.align-center {
+            text-align: center;
+          }
+      
+          &.align-right {
+            text-align: right;
+          }
+        }
+      }
 }

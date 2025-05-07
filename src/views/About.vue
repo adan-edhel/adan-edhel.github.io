@@ -4,8 +4,8 @@
 
     <div class="paragraph">
       <div>
-		I'm <strong>Mort Onmaz</strong>, a Gameplay Programmer who occasionally also loves to delve into lower 
-		level programming, using languages like C++ to build custom engines and games from scratch.
+		I'm <strong>Mort Onmaz</strong>, a Gameplay Programmer with a burning passion, who also occasionally enjoys delving into lower 
+		level programming, building custom engines and libraries from scratch using C++.
       </div>
 
       <!--
