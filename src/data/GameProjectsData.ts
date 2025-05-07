@@ -125,10 +125,10 @@ export default [
     </div>
 
     <div class="paragraph center">
-    <img class="pc-screenshot" src="img/projects/Gameplay/TreacherousWaters_00.gif" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="img/projects/Gameplay/TreacherousWaters_01.gif" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="img/projects/Gameplay/TreacherousWaters_02.png" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="img/projects/Gameplay/TreacherousWaters_03.png" alt="Singing Addict Screenshot" />
+    <img class="pc-screenshot" src="img/projects/Gameplay/TreacherousWaters_00.gif" alt="TreacherousWaters Media" />
+    <img class="pc-screenshot" src="img/projects/Gameplay/TreacherousWaters_01.gif" alt="TreacherousWaters Media" />
+    <img class="pc-screenshot" src="img/projects/Gameplay/TreacherousWaters_02.png" alt="TreacherousWaters Media" />
+    <img class="pc-screenshot" src="img/projects/Gameplay/TreacherousWaters_03.png" alt="TreacherousWaters Media" />
     </div>
     `, "#5a78af", true, true),
 
@@ -143,8 +143,6 @@ export default [
         <img class="pc-screenshot" src="img/projects/Covers/SoulHunter.png" alt="Soul Hunter Cover" />
     </div>
 
-    <!-- ------------------------------------------------------------------------------------------------------  -->
-        
     <div class="paragraph center">
     A 2D platformer telling the coming of age story of a fledgeling psycophant <br/>
     who morally struggles with the concept of reaping souls. <br/><br/>
@@ -155,8 +153,6 @@ export default [
     My personal contributions include, but are not limited to: All code <strong>except for</strong> enemy, combat & grapple mechanics, <strong> scrum master, shaders, audio and asset & level design.</strong>
     </div>
 
-    <!-- ------------------------------------------------------------------------------------------------------  -->
-    
     <div class="paragraph">
         <strong>Main features:</strong>
         <ul>
@@ -166,9 +162,7 @@ export default [
         </ul>
     </div>
 
-    <!-- ------------------------------------------------------------------------------------------------------  -->
-
-        <div class="paragraph">
+    <div class="paragraph">
         Main takeaways:
         <ul>
         <li><strong>Tool Development.</strong> Creating user-friendly systems for dialogue and portal placement to streamline the workflow for artists and designers.</li>
@@ -176,15 +170,11 @@ export default [
         </ul>
     </div>
 
-    <!-- ------------------------------------------------------------------------------------------------------  -->
-
     <div class="paragraph">
         <div class="notice">
         Source code is available on <a href="https://github.com/adan-edhel/SoulHunter" target="_blank">GitHub</a>.
         </div>
     </div>
-
-    <!-- ------------------------------------------------------------------------------------------------------  -->
 
     <div class="paragraph center">
         <strong>Feature Showcase</strong>
@@ -226,8 +216,6 @@ export default [
                 <a target="_blank" href="https://github.com/adan-edhel/SoulHunter/blob/master/Platformer/Assets/Code/Player/GrappleSystem.cs">Code on Github</a>
         </div>
     </div>
-
-    <!-- ------------------------------------------------------------------------------------------------------  -->
 
     <!--
     <div class="paragraph">
@@ -285,14 +273,14 @@ export default [
     </div>
 
     <div class="paragraph center">
-        <img class="pc-screenshot" src="img/projects/Gameplay/FlipTheGame_00.gif" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="img/projects/Gameplay/FlipTheGame_01.png" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="img/projects/Gameplay/FlipTheGame_02.png" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="img/projects/Gameplay/FlipTheGame_03.png" alt="Drawing Overload Screenshot" />
+        <img class="pc-screenshot" src="img/projects/Gameplay/FlipTheGame_00.gif" alt="FlipTheGame Media" />
+        <img class="pc-screenshot" src="img/projects/Gameplay/FlipTheGame_01.png" alt="FlipTheGame Media" />
+        <img class="pc-screenshot" src="img/projects/Gameplay/FlipTheGame_02.png" alt="FlipTheGame Media" />
+        <img class="pc-screenshot" src="img/projects/Gameplay/FlipTheGame_03.png" alt="FlipTheGame Media" />
     </div>
     `, "#383838"),
 
-        //-------------------------------------------------------------------------------------------
+    //-------------------------------------------------------------------------------------------
     // Line Break
     //-------------------------------------------------------------------------------------------
 
