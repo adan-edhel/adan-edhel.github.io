@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h1>Other stuff</h1>
+    <h1>Other Projects</h1>
 
     <div style="margin-bottom: 30px;">
-      And here are some other stuff I've made or heavily contributed to, which are totally different than the stuff from earlier.
+      Here are some other works I've wanted to share that are relevant to game development.
     </div>
     <ProjectsList v-bind:projects="projects" />
   </div>
@@ -12,7 +12,7 @@
 <script lang="ts">
 import Vue from "vue";
 import ProjectsList from "@/components/ProjectsList.vue";
-import otherProjectsData from "@/data/OtherProjectsData.ts";
+import otherProjectsData from "@/data/OtherProjectsData";
 
 export default Vue.extend({
   name: "OtherProjects",

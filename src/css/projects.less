@@ -15,6 +15,31 @@
         min-height: 300px;
     }
 
+    .sketchfab-wrapper {
+      position: relative;
+      width: 100%;
+      max-width: 800px;
+      aspect-ratio: 3 / 2;
+      margin: 0 auto;
+    }
+    
+    .sketchfab-wrapper iframe.sketchfab {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: none;
+    
+      /* moved attributes from HTML */
+      allow: fullscreen;
+      allow: xr-spatial-tracking;
+      xr-spatial-tracking: true;
+      execution-while-out-of-viewport: true;
+      execution-while-not-rendered: true;
+      web-share: true;
+    }
+
     .logo-small{
         width: 170px;
         height: auto;
@@ -25,6 +50,10 @@
     }
 
     .pc-screenshot {
+        width: 100%;
+    }
+
+    .large-screenshot{
         width: 100%;
     }
 
@@ -59,6 +88,11 @@
         .pc-screenshot {
             margin: 15px;
             width : 400px;
+        }
+
+        .large-screenshot{
+          margin: 15px;
+          width: 800px;
         }
     }
 

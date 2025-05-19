@@ -28,13 +28,13 @@
       -->
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
-        <a class="download-link" href="d/CV-nl.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download als PDF 🇳🇱</a> 
+        <a class="download-link" href="files/resume/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
+        <a class="download-link" href="files/resume/CV-nl.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download als PDF 🇳🇱</a> 
         <div style="clear:both"></div>
       </div>
     </div>
     <div class="photo">
-      <img src="img/resume-photo.png" alt="Photo of John" />
+      <img src="img/resume-photo.png" alt="Resume portrait" />
     </div>
 
     <div style="clear:both"></div>

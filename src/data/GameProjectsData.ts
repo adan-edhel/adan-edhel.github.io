@@ -115,6 +115,9 @@ export default [
         <li>Designing game loops with escalation mechanics.</li>
         <li>Working within asset constraints while keeping gameplay original.</li>
         <li>Developing AI behaviors that are fun but performant.</li>
+        <li>Keeping explicit journals on any design deviations.</li>
+        <li>Working within strict time restrictions. One day to design the concept, 
+        one day to plan the technical design and feature priorities, three days to build the game.</li>
         </ul>
     </div>
 
