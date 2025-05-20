@@ -28,8 +28,8 @@ const project1 = new ProjectData(
   true
 );
 
-const project4 = new ProjectData(
-  "project-4", "3D Diorama - Grandma's House", "img/projects-other/GrandmasHouseThumbnail.png",`
+const project2 = new ProjectData(
+  "project-2", "3D Diorama - Grandma's House", "img/projects-other/GrandmasHouseThumbnail.png",`
     <div class="paragraph">
       This diorama is a cozy little tribute to the feeling of visiting grandma's place. 
       I modelled everything in Maya and created the textures using Adobe Photoshop. 
@@ -56,12 +56,26 @@ const project4 = new ProjectData(
 );
 
 project1.iconUrl = Helpers.getSketchfabThumbnail("9b6a4dabdbb443e2adf1a82ae502ddfa", project1);
-project4.iconUrl = Helpers.getSketchfabThumbnail("4286ad09f5754a078b4c26f7b3f7732b", project4);
+project2.iconUrl = Helpers.getSketchfabThumbnail("4286ad09f5754a078b4c26f7b3f7732b", project2);
 
 export default [
 
     project1,
-    project4,
+
+        new ProjectData("project-3", "Building Placement Prototype", "img/projects-other/KeuzedeelCover.jpg", `
+      <div class="paragraph">
+        An educative prototype I've put together to explore building placement systems in games like Foundation or Manor Lords.
+      </div>
+
+      <div class="paragraph center">
+        <iframe class="youtube" src="https://www.youtube.com/embed/WEHM5jrEgmg" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      `, "#f92849", true),
+
+    project2,
+
+
 
   /** 
       new ProjectData("project-2", "5 Props - Grandma Theme", "img/projects-other/5PropsGrandma.jpg", `
