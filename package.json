@@ -5,10 +5,11 @@
   "scripts": {
     "serve": "cross-env NODE_OPTIONS=--openssl-legacy-provider vue-cli-service serve",
     "build": "cross-env NODE_OPTIONS=--openssl-legacy-provider vue-cli-service build",
-	"deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "http-parser-js": "^0.5.10",
     "vue": "^2.6.11",
     "vue-router": "^3.4.3"
   },
