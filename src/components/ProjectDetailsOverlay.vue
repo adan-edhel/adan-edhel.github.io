@@ -1,16 +1,31 @@
 <template>
   <transition name="fade">
     <div v-if="visible">
-      <div class="overlay">
+      <!-- Backdrop -->
+      <div 
+        class="overlay"
+        @click.self="$emit('close')"
+      >
       </div>
-      <div class="dialog" :style="{ 'background-color': color }">
+
+      <!-- Modal Dialog -->
+      <div 
+        class="dialog"
+        :style="{ 'background-color': color }"
+        @click.stop
+      >
         <h1 class="dialog-title">{{ title }}</h1>
-        <div @click="$emit('close')" class="dialog-close"><i class="fa fa-times fa-lg fa-fw"></i></div>
+        
+        <div @click="$emit('close')" class="dialog-close">
+          <i class="fa fa-times fa-lg fa-fw"></i>
+        </div>
+
         <div class="dialog-content">
           <div v-html="htmlContent"></div>
+          
           <div class="dialog-bottom">
-          <a @click="$emit('close')" class="dialog-close-button">Close</a>
-        </div>
+            <a @click="$emit('close')" class="dialog-close-button">Close</a>
+          </div>
         </div>
       </div>
     </div>
@@ -38,7 +53,7 @@ export default Vue.extend({
 
 <style scoped>
 .overlay {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.7);
   z-index: 10;
   position:fixed;
   top:0px;
@@ -56,6 +71,7 @@ export default Vue.extend({
   margin: 20px;
   padding-bottom: 10px;
   color:white;
+  cursor: default;
 }
 
 iframe {
@@ -116,6 +132,4 @@ a.dialog-close-button {
     padding: 40px;
   }
 }
-
-
 </style>
