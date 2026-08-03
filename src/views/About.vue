@@ -1,11 +1,14 @@
 <template>
   <div style="margin-bottom: 80px;">
-    <h1>Hello!</h1>
+    <h1>Hi, I'm Mort Onmaz</h1>
 
     <div class="paragraph">
       <div>
-		I'm <strong>Mort Onmaz</strong>, a Gameplay Programmer with a burning passion, who also occasionally enjoys delving into lower 
-		level programming, building custom engines and libraries from scratch using C++.
+		Gameplay Programmer with strong interest in lower-level tools and engine work in C++. <br><br>
+
+    I design and implement flexible, reusable, data-driven architectures that are easy for other developers and designers to work with. I’m strongest when building the core systems and mechanics of a game. <br><br>
+
+    Particularly interested in sandbox games and emergent gameplay that lets players express their own creativity. <br><br>
       </div>
 
       <!--

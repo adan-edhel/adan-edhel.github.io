@@ -7,7 +7,11 @@
               @click="showDetails(project)"
               class="project-item"
               :class="{ 'wide': project.isWide, 'high': project.isHigh }">
+
             <div class="project-item-image" :style="{ 'background-image': 'url(' + project.iconUrl + ')' }">
+              <div class="project-tags">
+                <spawn class ="tag tool">{{ project.tool }}</spawn>
+              </div>
             </div>
             <div class="title-bar" :style="{ 'background-color': project.accentColor + 'DD' }">
                 <div class="title-text">
@@ -80,7 +84,9 @@ export default Vue.extend({
   background-position: center;
   height: 100%;
   width: 100%;
-  transition: all 0.2s;
+  transition: all 0.25s ease;
+  position: relative;
+  overflow: hidden;
 }
 .project-item-image:hover {
   -webkit-transform: scale(1.1);

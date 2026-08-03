@@ -7,10 +7,6 @@
 
     <ul>
       <li>
-        <i class="fa fa-user-circle-o fa-lg fa-fw"></i>
-        <a href="https://www.mortonmaz.com" target="_blank">mortonmaz.com</a>
-      </li>
-      <li>
         <i class="fa fa-envelope-o fa-lg fa-fw"></i>
         <a href="mailto:mort_onmaz@hotmail.com" target="_blank">mort_onmaz@hotmail.com</a>
       </li>
@@ -22,12 +18,10 @@
         <i class="fa fa-github fa-lg fa-fw"></i>
         <a href="https://github.com/adan-edhel" target="_blank">github.com/adan-edhel</a>
       </li>
-      <!--
       <li>
         <i class="fa fa-gamepad fa-lg fa-fw"></i>
         <a href="https://amroth-eldarion.itch.io/" target="_blank">amroth-eldarion.itch.io</a>
       </li>
-      -->
       <li>
         <i class="fa fa-steam fa-lg fa-fw"></i>
         <a href="https://steamcommunity.com/id/AmrothEldarion/" target="_blank">steam.com/AmrothEldarion</a>
